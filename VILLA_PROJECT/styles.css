@@ -1,0 +1,646 @@
+
+
+.villa-container{
+    margin: 0;
+    font-family: 'Times New Roman';
+}
+
+.navbar{
+    display: flex;
+    height: 50px;
+    border: 1px solid rgb(205, 199, 199);
+    align-items: center;
+    width: 100%;
+    
+    
+}
+
+.navbar .email-maps{
+    margin-left:100px;
+    display: flex;
+    gap: 100px;
+}
+.navbar .email-maps i{
+    color: orangered;
+}
+
+.navbar .email{
+    display: flex;
+}
+.navbar .maps{
+    display: flex;
+}
+.navbar .icons{
+    margin-right: 100px;
+    
+}
+.navbar .icons div{
+    display: inline-block;
+}
+.navbar .icons .circle{
+    width: 30px;
+    height: 30px;
+    background-color: whitesmoke;
+    border-radius: 50%;
+}
+.navbar .icons .circle i{
+    margin: 6px;
+}
+
+
+/* HEADER */
+
+.header-container{
+    position: relative;
+}
+.header-container .icon{
+    position: absolute;
+    top: 15px;
+    left: 1300px;
+    width: 40px;
+    height: 40px;
+    background-color: orangered;
+    border-radius: 50%;
+    color: white;
+
+}
+.header-container .icon i{
+    margin: 10px;
+    font-size: 15px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+.logo{
+    font-weight: bolder;
+    font-size: 30px;
+}
+.header a{
+    text-decoration: none;
+    color: black;
+    margin-left: 50px;
+    font-size: 20px;
+}
+.header a:hover{
+    color: orangered;
+}
+.header button{
+    color: orangered;
+    background-color: black;
+    height: 40px;
+    border-radius: 30px;
+    width: 150px;
+    font-size: 15px;
+    text-align: right;
+    
+}
+
+/* HEADER CLOSE */
+
+.banner{
+    position: relative;
+}
+.banner img{
+    width: 100%;
+}
+
+.banner .banner-text .toronto-canada{
+    display: flex;
+    background-color: white;
+    color: black;
+    width: 130px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.banner .banner-text .canada{
+    color: orangered;
+}
+.banner .banner-text{
+    position: absolute;
+    color: white;
+    top: 250px;
+    left: 300px;
+    
+}
+.banner h1{
+    font-size: 50px;
+}
+
+
+/* FEATURED */
+
+
+.featured-container{
+    display: flex;
+    margin: 150px;
+    gap: 80px;
+}
+.featured-container .featured-img{
+    position: relative;
+}
+.featured-icon{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    background-color: orangered;
+    border-radius: 50%;
+    top: 1450px;
+    left: 90px;
+    
+}
+.featured-icon img{
+    margin: 35px;
+}
+
+
+.featured-container .featured{
+    margin-bottom: 20px;
+    
+}
+.featured-container .featured-text h1{
+    margin-bottom: 40px;
+}
+
+.featured-container .featured-text .featured{
+    color: orangered;
+}
+
+.featured-container .table{
+    padding: 30px;
+    border-radius: 10px;
+    height: 500px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+}
+
+
+
+.featured-container .table .info{
+    display: flex;
+    margin-bottom: 25px;
+    border-bottom: 1px solid rgb(189, 183, 183);
+    
+}
+.table .info:last-child{
+    border-bottom: none;
+}
+
+.featured-container .accordian{
+    width: 400px;
+}
+
+.featured-container .table{
+    width: 300px;
+    align-items: center;
+}
+
+.featured-container .table .info{
+    gap: 10px;
+}
+
+.featured-container .table .text h2{
+    font-size: 20px;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+.featured-container .table .text p{
+    font-size: 15px;
+    margin-top: 0;
+    color: rgb(141, 136, 136);
+}
+
+
+
+.video-view{
+    position: relative;
+}
+.video-view-text p{
+    position: absolute;
+    top: 90px;
+    left: 700px;
+    color: orangered;
+}
+.video-view-text h2{
+    position: absolute;
+    top: 150px;
+    left: 630px;
+    color: white;
+}
+.video-view .video-frame{
+    position: absolute;
+    top: 350px;
+    left: 350px;
+    
+}
+.video-view .video-frame img{
+    border-radius: 10px;
+}
+
+/* .outline{
+    position: ;
+    width: 100px;
+    height: 100px;
+    background-color: orangered;
+    border-radius: 50%;
+    top: 500px;
+    left: 700px;
+} */
+
+.play-button{
+    position: absolute;
+    width: 50px; 
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+    color: orangered;
+    top: 520px;
+    left: 700px;
+    align-items: center;
+
+}
+.play-button i{
+    font-size: 20px;
+    margin: 15px;
+}
+
+/* CARDS */
+
+.experience-cards{
+    position: relative;
+}
+
+.experience{
+    display: flex;
+    gap: 50px;
+    margin: 200px;
+    margin-top: 200px;
+}
+.experience .cards{
+    display: flex;
+    align-items: center;
+    margin: 50px;
+    width: 250px;
+    gap: 40px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(242, 217, 208);
+}
+
+.experience .cards .number{
+    font-size: 30px;
+    color: orangered;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+.experience .cards .text{
+    font-weight: bold;
+}
+
+.circles .circle1{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: orangered;
+    border-radius: 50%;
+    top: 25px;
+    left: 460px;
+}
+.circles .circle2{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: orangered;
+    border-radius: 50%;
+    top: 25px;
+    left: 860px;
+}
+.circles .circle3{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: orangered;
+    border-radius: 50%;
+    top: 25px;
+    left: 1250px;
+}
+
+/* BEST DEALS STARTS */
+
+.best-deals{
+    position: relative;
+    background-color: whitesmoke;
+    padding: 100px;
+}
+.best-deals .text-buttons{
+    display: flex;
+   
+    align-items: center;
+    justify-content: space-between;
+}
+.best-deals .text-buttons p{
+    color: orangered;
+}
+.best-deals .text-buttons h1{
+    font-weight: bold;
+}
+.best-deals .text-buttons button{
+    margin: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 80px;
+    width: 130px;
+}
+.best-deals .text-buttons #button1{
+    background-color: orangered;
+}
+.best-deals .text-buttons button:hover{
+    background-color: orangered;
+}
+
+.best-deals-cards{
+    margin-top: 70px;
+    display: flex;
+    gap: 80px;
+}
+.best-deals-cards .table{
+    background-color: white;
+    width: 300px;
+    height: 370px;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    
+    
+}
+.best-deals-cards .table .room-details{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid whitesmoke;
+    padding: 15px 0;
+    margin: 10px;
+    
+    
+}
+.best-deals-cards .table .room{
+    color: rgb(201, 197, 197);
+}
+.best-deals-cards .table .details{
+    font-weight: bold;
+    font-size: 20px;
+}
+.best-deals-cards .table .room-details:last-child{
+    border-bottom: none;
+}
+
+.best-deals-cards .text{
+    width: 300px;
+    
+}
+
+.best-deals-cards .text button{
+    color: white;
+    background-color: black;
+    height: 40px;
+    border-radius: 30px;
+    width: 150px;
+    font-size: 15px;
+    text-align: right;
+
+}
+.best-deals .circle{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: orangered;
+    color: white;
+    border-radius: 50%;
+    top: 634px;
+    left: 1055px;
+}
+.best-deals .circle i{
+    margin: 10px;
+}
+
+
+/* BESTDEALS CLOSE */
+
+
+/* PROPERTIES */
+
+.properties-container{
+    margin: 100px;
+}
+.properties-container .text{
+    text-align: center;
+    margin-bottom: 100px;
+}
+.properties-container .text p{
+    color: orangered;
+}
+.properties-container .text h2{
+    font-weight: bold;
+}
+
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+
+}
+.card-container .cards img{
+    border-radius: 10px;
+}
+.card-container .cards{
+    width: 400px;
+    background-color: whitesmoke;
+    gap: 30px;
+    padding: 25px;
+    border-radius: 10px;
+}
+.card-container .cards .button-cost{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.card-container .cards .button{
+    background-color: rgb(246, 188, 166);
+    
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.card-container .cards .button:hover{
+    background-color: orangered;
+    color: white;
+    cursor: pointer;
+}
+
+.card-container .cards .cost{
+    color: orangered;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.card-container .cards h6{
+    margin-top: 20px;
+    font-weight: bold;
+}
+.card-container .cards .bed-bath{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+    border-bottom: 1px solid rgb(203, 200, 200);
+    padding: 20px 0;
+}
+
+
+.card-container .cards button{
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    margin-top: 30px;
+    width: 150px;
+    margin-left: 100px;
+}
+.card-container .cards button:hover{
+    background-color: orangered;
+}
+
+/* PROPERTIES CLOSE */
+
+.contact-us-container{
+    position: relative;
+    margin-bottom: 450px;
+}
+.contact-us-container .text{
+    position: absolute;
+    text-align: center;
+    top: 100px;
+    left: 550px;
+}
+.contact-us-container .text p{
+    color: orangered;
+}
+.contact-us-container .text h2{
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.form-container{
+    position: absolute;
+    width: 350px;
+    border-radius: 10px;
+    padding: 20px;
+    top: 350px;
+    left: 1000px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.form-container input{
+    margin: 15px 5px;
+    width: 300px;
+    height: 30px;
+    background-color: whitesmoke;
+    border: none;
+    border-radius: 15px;
+    font-size: 10px;
+}
+.form-container textarea{
+    margin: 10px;
+    background-color: whitesmoke;
+    width: 300px;
+    height: 100px;
+    border: none;
+    border-radius: 10px;
+    font-size: 12px;
+}
+.form-container button{
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    margin: 10px;
+    margin-top: 20px;
+    font-size: 12px;
+    padding: 5px;
+}
+
+.contact-us-container iframe{
+    position: absolute;
+    top: 350px;
+    left: 250px;
+}
+
+.contact-cards .contact{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    width: 250px;
+    gap: 20px;
+    top: 750px;
+    left: 250px;
+    padding: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.contact-cards .contact h5{
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+.contact-cards .contact p{
+    color: rgb(219, 219, 219);
+}
+.contact-cards .email{
+    width: 250px;
+    position: absolute;
+    display: flex;
+    border-radius:10px;
+    align-items: center;
+    gap: 20px;
+    top: 750px;
+    left: 600px;
+    padding: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+
+.contact-cards .email h5{
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+.contact-cards .email p{
+    color: rgb(219, 219, 219);
+}
+
+.footer{
+    height: 70px;
+    background-color: black;
+    padding: 20px;
+    
+}
+.footer p{
+    color: white;
+    margin-left: 250px;
+}
+
+/* home page close */
+
+
+
+
+
