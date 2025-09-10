@@ -640,7 +640,78 @@
 
 /* home page close */
 
+/* PROPERTIES PAGE STARTS */
 
+.properties-image{
+    position: relative;
+}
+.properties-image .text{
+    position: absolute;
+    text-align: center;
+    top: 50px;
+    left: 600px;
+}
+.properties-image .text button{
+    background-color: white;
+    width: 150px;
+    padding: 10px;
+    font-size: 10PX;
+    font-weight:bold
+}
+.properties-image .text h1{
+    color: white;
+    font-weight: bold;
+    margin: 15px;
+}
+
+.properties-image .buttons{
+    margin: 100px;
+    margin-left: 350px;
+    align-items: center;
+}
+.properties-image .buttons button{
+    margin: 20px;
+    padding: 10px;
+    width: 150px;
+    border: none;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+.properties-image .buttons button:hover{
+    background-color: orangered;
+}
+.properties-image .buttons #seeAll{
+    background-color: orangered;
+}
+
+/* BUTTON-CONTAINER */
+.properties-background{
+    font-family: 'Times New Roman';
+}
+
+.button-container{
+    margin: 80px;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+.button-container button{
+    margin: 5px;
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+}
+
+.button-container #second{
+    background-color: orangered;
+}
+.button-container button:hover{
+    background-color: orangered;
+}
 
 
 
