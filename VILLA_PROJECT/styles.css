@@ -635,7 +635,7 @@
 }
 .footer p{
     color: white;
-    margin-left: 250px;
+    margin-left: 450px;
 }
 
 /* home page close */
@@ -648,7 +648,7 @@
 .properties-image .text{
     position: absolute;
     text-align: center;
-    top: 50px;
+    top: 80px;
     left: 600px;
 }
 .properties-image .text button{
@@ -712,6 +712,208 @@
 .button-container button:hover{
     background-color: orangered;
 }
+
+
+/* PROPERTY-DETAILS */
+
+.property-details-container{
+    font-family: 'Times New Roman';
+}
+
+.properties-image .text{
+    position: absolute;
+    text-align: center;
+    top: 80px;
+    left: 600px;
+}
+
+.properties-details-image .img-button button{
+    width: 170px;
+}
+
+
+.house-card{
+    margin: 100px;
+    display: flex;
+    gap: 100px;
+
+}
+
+.house-card .house-image{
+    
+    width: 800px;
+}
+
+.house-card .button button{
+    background-color: rgb(242, 217, 208);
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 30px;
+    width: 100px;
+}
+.house-card h4{
+    font-weight: bold;
+    border-bottom: 1px solid rgb(235, 228, 228);
+    padding: 25px 0;
+}
+.house-card button:hover{
+    background-color: orangered;
+    color: white;
+}
+
+.house-card .table{
+    padding: 30px;
+    border-radius: 10px;
+    height: 500px;
+    
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+}
+
+
+
+.house-card .table .info{
+    display: flex;
+    margin-bottom: 25px;
+    border-bottom: 1px solid rgb(189, 183, 183);
+    
+}
+.table .info:last-child{
+    border-bottom: none;
+}
+
+.house-card .table{
+    width: 350px;
+    align-items: center;
+}
+
+.house-card .table .info{
+    gap: 10px;
+}
+
+.house-card .table .text h2{
+    font-size: 20px;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+.house-card .table .text p{
+    font-size: 15px;
+    margin-top: 0;
+    color: rgb(141, 136, 136);
+}
+
+.house-card p{
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.house-card .accordian-container{
+    margin-top: 100px;
+}
+
+
+/* CONTACT US */
+
+.CONTACT-CONTAINER{
+    font-family: 'Times New Roman';
+}
+
+.contact-container{
+    margin: 100px;
+    display: flex;
+    gap: 50px;
+}
+.contact-container .text{
+    width: 700px;
+}
+.contact-container .text p{
+    color: orangered;
+}
+.contact-container .text h2{
+    font-weight: bold;
+    font-size: 50px;
+    margin: 50px 0;
+}
+
+.contact-form-container{
+    width: 450px;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.contact-form-container input{
+    margin: 15px 5px;
+    width: 400px;
+    height: 30px;
+    background-color: whitesmoke;
+    border: none;
+    border-radius: 15px;
+    font-size: 10px;
+}
+.contact-form-container textarea{
+    margin: 10px;
+    background-color: whitesmoke;
+    width: 400px;
+    height: 100px;
+    border: none;
+    border-radius: 10px;
+    font-size: 12px;
+}
+.contact-form-container button{
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    margin: 10px;
+    margin-top: 20px;
+    font-size: 12px;
+    padding: 5px;
+}
+
+.contact-us-cards .contact{
+    border-radius: 10px;
+    width: 300px;
+    display: flex;
+    border-radius:10px;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+    margin-top: 50px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.contact-us-cards .contact h5{
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+.contact-us-cards .contact p{
+    color: rgb(219, 219, 219);
+}
+.contact-us-cards .email{
+    width: 300px;
+    display: flex;
+    border-radius:10px;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+    margin-top: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+
+.contact-us-cards .email h5{
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+.contact-us-cards .email p{
+    color: rgb(219, 219, 219);
+}
+
+.iframe-container{
+    margin: 100px;
+}
+
+
 
 
 
