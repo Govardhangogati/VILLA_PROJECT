@@ -61,22 +61,22 @@
   padding: 5px;
 }
 
-/* Dropdown hidden by default */
+
 .navbar .more .icons {
   display: none;
   position: absolute;
-  top: 40px;   /* dropdown below 3-dots */
+  top: 40px;  
   left: 0;
   background: white;
   border: 1px solid #ddd;
   padding: 10px;
   border-radius: 5px;
-  flex-direction: column;   /* ✅ vertical list */
+  flex-direction: column;  
   gap: 10px;
   box-shadow: 0px 4px 6px rgba(0,0,0,0.2);
 }
 
-/* ✅ Show dropdown on hover */
+
 .navbar .more:hover .icons {
   display: flex;
 }
@@ -149,7 +149,7 @@
 }
 
 
-/* Dropdown hidden by default */
+
 .header .bars .anchor {
   display: none;
   position: absolute;
@@ -1294,6 +1294,23 @@
 }
 
 
+/* PROPERTY DETAILS */
+
+.house-card{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.house-card .house-image{
+    
+    width:100%;
+}
+.house-card .house-image img{
+    
+    width:100%;
+}
+
+
 
 
 
@@ -1485,6 +1502,22 @@
     left: 400px;
 }
 
+/* PROPERTY DETAILS */
+
+.house-card{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.house-card .house-image{
+    
+    width:100%;
+}
+.house-card .house-image img{
+    
+    width:100%;
+}
+
 
 
 
@@ -1669,6 +1702,22 @@
   .footer p {
     margin-left: 150px;
   }
+
+  /* PROPERTY DETAILS */
+
+.house-card{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.house-card .house-image{
+    
+    width:100%;
+}
+.house-card .house-image img{
+    
+    width:100%;
+}
 }
 
 
